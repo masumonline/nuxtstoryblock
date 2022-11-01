@@ -6,5 +6,6 @@ export default defineNuxtConfig({
 		bridge: true,
 		apiOptions: {},
 		useApiClient: true,
+		baseURL: 'https://a.storyblok.com'
 	},
 });
