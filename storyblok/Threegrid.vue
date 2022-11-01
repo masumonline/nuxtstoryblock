@@ -1,19 +1,19 @@
 <template>
   <div v-editable="blok">
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto" bis_skin_checked="1">
-        <div class="flex flex-wrap -m-4" bis_skin_checked="1">
-          <div class="p-4 md:w-1/3" bis_skin_checked="1">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 md:w-1/3">
             <div
               class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-              bis_skin_checked="1"
+            
             >
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
-                src="https://dummyimage.com/720x400"
+                :src="blok.image"
                 alt="blog"
               />
-              <div class="p-6" bis_skin_checked="1">
+              <div class="p-6">
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
@@ -25,7 +25,7 @@
                 <p class="leading-relaxed mb-3">
                   {{ blok.text }}
                 </p>
-                <div class="flex items-center flex-wrap" bis_skin_checked="1">
+                <div class="flex items-center flex-wrap">
                   <a
                     class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                     > Learn More
@@ -83,17 +83,17 @@
               </div>
             </div>
           </div>
-          <div class="p-4 md:w-1/3" bis_skin_checked="1">
+          <div class="p-4 md:w-1/3">
             <div
               class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
-              bis_skin_checked="1"
+            
             >
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center"
                 src="https://dummyimage.com/721x401"
                 alt="blog"
               />
-              <div class="p-6" bis_skin_checked="1">
+              <div class="p-6">
                 <h2
                   class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
                 >
