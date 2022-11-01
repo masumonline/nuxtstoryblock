@@ -1,5 +1,5 @@
 <template>
-  <div  v-editable="blok" class="p-4 md:w-1/3">
+  <div  v-editable="blok" class="p-4">
     <div
       class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden"
     >
