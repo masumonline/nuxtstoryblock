@@ -1,6 +1,5 @@
 <script setup>
-const route = useRoute();
-const story = await useAsyncStoryblok(route.params.name, { version: 'draft' })
+const story = await useAsyncStoryblok('products', { version: 'draft' })
 </script>
  
 <template>
